@@ -54,7 +54,6 @@ public:
 
       Node *temp = front;
       front = front->next;
-
       if (front == nullptr)rear = nullptr;
       delete temp;
    }
